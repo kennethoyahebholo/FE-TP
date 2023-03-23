@@ -19,5 +19,8 @@ export const vector4 = `${BACKGROUND}/vector4.svg`;
 export const vector5 = `${BACKGROUND}/vector5.svg`;
 export const Pattern = `${BACKGROUND}/Pattern.png`;
 export const map = `${BACKGROUND}/map.png`;
+export const CircleDesign = `${BACKGROUND}/CircleDesign.svg`;
+export const QaDesign = `${BACKGROUND}/QaDesign.svg`;
+export const backQA = `${BACKGROUND}/backQA.svg`;
 
 export const menuIcon = `${ICONS}/menu.svg`;
