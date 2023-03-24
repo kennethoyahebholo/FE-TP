@@ -1,6 +1,7 @@
 import {
   Hero,
   CompaniesLogoDisplay,
+  WeAreTheBest,
   FAQ,
   ConnectWithTheWorld,
   HighQuality,
@@ -13,6 +14,7 @@ const HomeView = () => {
       <Hero />
       <CompaniesLogoDisplay />
       {/* <HighQuality /> */}
+      <WeAreTheBest />
       <PopularCourses />
       <ConnectWithTheWorld />
       <FAQ />
