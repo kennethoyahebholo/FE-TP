@@ -7,7 +7,7 @@ import { TPimages } from "../../../assets";
 const Navbar = ({ transparent = false }) => {
   return (
     <div
-      className={`${"bg-transparent"} fixed lg:relative top-0 left-0 right-0 text-white z-50`}
+      className={`${"bg-transparent"} lg:relative top-0 left-0 right-0 text-white z-50`}
     >
       <div className="relative w-full h-[10vh] px-3 md:px-10 xl:px-32 py-16 flex items-center justify-between z-5">
         <Link to="">

@@ -30,7 +30,9 @@
     font-weight: 400;
   }
 
-  p {
+  p,
+  span,
+  label {
     font-family: "Satoshi";
     font-style: normal;
     font-weight: 400;

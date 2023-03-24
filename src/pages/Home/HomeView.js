@@ -3,6 +3,8 @@ import {
   CompaniesLogoDisplay,
   FAQ,
   ConnectWithTheWorld,
+  HighQuality,
+  PopularCourses,
 } from "./HomeComp";
 
 const HomeView = () => {
@@ -10,6 +12,8 @@ const HomeView = () => {
     <div className="overflow-hidden">
       <Hero />
       <CompaniesLogoDisplay />
+      {/* <HighQuality /> */}
+      <PopularCourses />
       <ConnectWithTheWorld />
       <FAQ />
     </div>

@@ -29,6 +29,8 @@ const Button = ({
       className={`${getSize(size)} ${
         variant === "full"
           ? "bg-white text-[#004DB3]"
+          : variant === "full-blue"
+          ? "bg-[#004DB3] text-white"
           : "border border-white text-white"
       } ${className}  rounded font-bold px-6 text-sm flex justify-center items-center max-h-[39px] gap-3`}
       {...rest}

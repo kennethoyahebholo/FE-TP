@@ -9,7 +9,7 @@ import {
 
 const CompaniesLogoDisplay = () => {
   return (
-    <div className="flex items-center justify-center w-full h-[60px] md:h-[158px] bg-[##CCDBF0] px-[20px]">
+    <div className="flex items-center justify-center w-full h-[60px] md:h-[158px] bg-[#CCDBF0] px-[20px]">
       <div className="flex items-center gap-2 md:gap-5 lg:gap-8">
         <TPZoomLogo className=" max-w-[80%] aspect-[3/2] object-contain" />
         <TPStripeLogo className=" max-w-[80%] aspect-[3/2] object-contain" />

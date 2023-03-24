@@ -11,7 +11,7 @@ const Hero = () => {
       style={{ backgroundImage: `url('${TPimages.heroBackground}')` }}
     >
       <div
-        className="relative px-5 md:px xl:px-32 pt-[130px] lg:pt-[100px] lg:h-screen grid grid-cols-1
+        className="relative px-5 md:px-20 xl:px-32 pt-[130px] lg:pt-[100px] lg:h-screen grid grid-cols-1
         md:grid-cols-2 items-end justify-between"
       >
         <div className="absolute left-[0px] top-[460px]">
