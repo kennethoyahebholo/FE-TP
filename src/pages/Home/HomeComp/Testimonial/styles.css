@@ -1,0 +1,24 @@
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 10000rem;
+}
+
+.slick-dots li {
+  margin: 0 -3px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #ccdbf0;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #004db3;
+}
+
+.slick-slider {
+  padding-bottom: 20px !important;
+}

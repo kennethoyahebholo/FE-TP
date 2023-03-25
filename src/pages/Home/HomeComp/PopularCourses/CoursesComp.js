@@ -21,7 +21,7 @@ const CoursesComp = ({ ...data }) => {
           ({data.views}k+)
         </label>
       </div>
-      <h4 className="text-[#000F24] text-[8px] lg:text-[19px] font-semibold max-w-[140px] lg:max-w-[300px] leading-[10px] lg:leading-[23px] mb-[6px] lg:mb-3">
+      <h4 className="text-[#000F24] text-[8px] lg:text-[19px] font-semibold max-w-[140px] lg:max-w-[300px] leading-[10px] lg:leading-[23px] mb-[6px] lg:mb-3 lg:mt-[20px]">
         {data.title}
       </h4>
       <div className="flex justify-between items-center mb-4 lg:mb-7">
@@ -53,7 +53,7 @@ const CoursesComp = ({ ...data }) => {
             src={data.instructorPicture}
             alt=""
           />
-          <span className="text-[#000000] text-[6px] lg:text-base font-bold">
+          <span className="text-[#000000] text-[6px] lg:text-[16px] font-bold">
             {data.instructor}
           </span>
         </div>

@@ -30,7 +30,7 @@ const WeAreTheBest = () => {
               this is why we are best from others
             </h3>
 
-            <p className="capitalize text-[#A2A2A2] max-w-[480px] lg:max-w-[448px] mt-2 mb-7 text-base text-center xl:text-start">
+            <p className="capitalize text-[#A2A2A2] max-w-[320px] lg:max-w-[448px] mt-2 mb-7 text-[8px] md:text-[16px] text-center xl:text-start leading-4 md:leading-[25px]">
               high-defination video is video of higher resolution and quality
               than standard definition. while there’s no standard meaning for
               high definition, generally any standard video image
@@ -40,7 +40,7 @@ const WeAreTheBest = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-6 m-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-3 lg:gap-6 self-center m-auto">
           {QualitiesData.map((data) => (
             <CardComp key={data.id} {...data} />
           ))}
