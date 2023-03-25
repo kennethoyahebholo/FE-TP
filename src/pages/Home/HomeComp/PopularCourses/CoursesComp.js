@@ -31,7 +31,7 @@ const CoursesComp = ({ ...data }) => {
             alt=""
             className="mr-1 lg:mr-2 max-w-[7px] lg:max-w-[20px]"
           />
-          <span className="text-[#A1A1A1] text-[4px] lg:text-[16px] font-medium">
+          <span className="text-[#A1A1A1] text-[4px] lg:text-lg font-medium">
             {data.duration}
           </span>
         </div>
@@ -41,7 +41,7 @@ const CoursesComp = ({ ...data }) => {
             alt=""
             className="mr-1 lg:mr-2 max-w-[8px] lg:max-w-[22px]"
           />
-          <span className="text-[#A1A1A1] text-[4px] lg:text-[16px] font-medium">
+          <span className="text-[#A1A1A1] text-[4px] lg:text-lg font-medium">
             {data.numberOfLessons} lessons
           </span>
         </div>
@@ -53,7 +53,7 @@ const CoursesComp = ({ ...data }) => {
             src={data.instructorPicture}
             alt=""
           />
-          <span className="text-[#000000] text-[6px] lg:text-[16px] font-bold">
+          <span className="text-[#000000] text-[6px] lg:text-lg font-bold">
             {data.instructor}
           </span>
         </div>

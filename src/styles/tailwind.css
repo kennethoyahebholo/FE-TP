@@ -60,7 +60,7 @@
 
   h5 {
     line-height: 150%;
-    @apply text-[16px] lg:text-[27px];
+    @apply text-lg lg:text-[27px];
   }
 
   h6 {

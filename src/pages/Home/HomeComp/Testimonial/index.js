@@ -31,7 +31,7 @@ const Testimonial = () => {
         <h4 className="text-[24px] md:text-[56px] font-black text-[#000F24] text-center z-[2] capitalize">
           what our clients are saying
         </h4>
-        <p className="capitalize text-[8px] md:text-[16px] leading-4 md:leading-[20px] text-[#A2A2A2] font-medium text-center max-w-[280px] md:max-w-[710px] z-[2]">
+        <p className="capitalize text-[8px] md:text-lg leading-4 md:leading-[20px] text-[#A2A2A2] font-medium text-center max-w-[280px] md:max-w-[710px] z-[2]">
           high-defination video is video of higher resolution and quality than
           standard definition. while there’s no standard meaning for high
           definition, generally any standard video image

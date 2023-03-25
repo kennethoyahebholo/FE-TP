@@ -30,7 +30,7 @@ const WeAreTheBest = () => {
               this is why we are best from others
             </h3>
 
-            <p className="capitalize text-[#A2A2A2] max-w-[320px] lg:max-w-[448px] mt-2 mb-7 text-[8px] md:text-[16px] text-center xl:text-start leading-4 md:leading-[25px]">
+            <p className="capitalize text-[#A2A2A2] max-w-[320px] lg:max-w-[448px] mt-2 mb-7 text-[8px] md:text-lg text-center xl:text-start leading-4 md:leading-[25px]">
               high-defination video is video of higher resolution and quality
               than standard definition. while there’s no standard meaning for
               high definition, generally any standard video image
