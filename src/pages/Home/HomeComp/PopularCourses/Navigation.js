@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = ({ initialCategory, handleClick, isCategory }) => {
   return (
-    <div className="flex flex-wrap item-center justify-center text-base gap-2 md:gap-16 mb-12">
+    <div className="flex flex-wrap item-center justify-center text-[8px] md:text-base gap-2 md:gap-16 mb-8 lg:mb-12">
       {initialCategory.map((data) => (
         <label
           onClick={() => handleClick(data.category)}

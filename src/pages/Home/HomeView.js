@@ -6,6 +6,7 @@ import {
   ConnectWithTheWorld,
   HighQuality,
   PopularCourses,
+  Testimonial,
 } from "./HomeComp";
 
 const HomeView = () => {
@@ -16,6 +17,7 @@ const HomeView = () => {
       {/* <HighQuality /> */}
       <WeAreTheBest />
       <PopularCourses />
+      <Testimonial />
       <ConnectWithTheWorld />
       <FAQ />
     </div>

@@ -7,7 +7,7 @@ import { QualitiesData } from "../../../../utils/qualities";
 
 const WeAreTheBest = () => {
   return (
-    <div className="relative w-full h-full bg-[##F8F9FC]  px-5 md:px-20 xl:px-27 py-[70px]">
+    <div className="relative w-full h-full bg-[#F8F9FC]  px-5 md:px-20 xl:px-27 py-[70px]">
       <img
         src={TPimages.vectorBest1}
         alt=""

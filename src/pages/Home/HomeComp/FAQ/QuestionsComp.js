@@ -7,7 +7,7 @@ const QuestionsComp = ({ question, answer }) => {
     <div className="flex flex-col py-6 border-b border-[#EAEAEA]">
       <div className="flex items-center justify-between mb-2">
         <h4
-          className={`text-[24px] max-w-[300px] md:max-w-full font-semibold ${
+          className={`text-[14px] md:text-[24px] max-w-[300px] md:max-w-full font-semibold ${
             isShowQuestion ? "text-[#004DB3]" : "text-[#000F24]"
           }`}
         >
@@ -15,18 +15,20 @@ const QuestionsComp = ({ question, answer }) => {
         </h4>
         {isShowQuestion ? (
           <TPMinusIcon
-            className="cursor-pointer"
+            className="cursor-pointer w-[6px] md:w-[14px]"
             onClick={() => setIsShowQuestion(!isShowQuestion)}
           />
         ) : (
           <TPAddIcon
-            className="cursor-pointer"
+            className="cursor-pointer w-[6px] md:w-[14px]"
             onClick={() => setIsShowQuestion(!isShowQuestion)}
           />
         )}
       </div>
       {isShowQuestion && (
-        <p className="text-base text-[#A2A2A2] font-medium">{answer}</p>
+        <p className="text-[8px] md:text-[16px] leading-4 md:leading-[24px] text-[#A2A2A2] max-w-[1010px] font-medium">
+          {answer}
+        </p>
       )}
     </div>
   );

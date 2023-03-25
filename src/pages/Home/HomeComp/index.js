@@ -5,3 +5,4 @@ export { default as ConnectWithTheWorld } from "./ConnectWithTheWorld";
 export { default as HighQuality } from "./HighQuality";
 export { default as PopularCourses } from "./PopularCourses";
 export { default as WeAreTheBest } from "./WeAreTheBest";
+export { default as Testimonial } from "./Testimonial";
