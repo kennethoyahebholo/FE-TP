@@ -35,7 +35,7 @@ const WeAreTheBest = () => {
               than standard definition. while there’s no standard meaning for
               high definition, generally any standard video image
             </p>
-            <div className="max-w-[590px] md:max-w-[550px]">
+            <div className="max-w-[590px] md:max-w-[600px]">
               <img src={TPimages.boyOnPc} alt="" />
             </div>
           </div>
