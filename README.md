@@ -19,7 +19,7 @@ git clone https://github.com/kennethoyahebholo/FE-TP.git
 
 ### Next, navigate into the project directory:
 
-cd FE-TALENTPLUS
+cd FE-TP
 
 ### Next, navigate into the bin directory:
 
@@ -28,7 +28,9 @@ cd bin
 ### start the dockerized app in development by running this shell command
 
 Runs the app in the development mode.\
-./deploy.sh dev up
+
+#### ./deploy.sh dev up
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
