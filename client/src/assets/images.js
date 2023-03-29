@@ -15,6 +15,9 @@ export const courseIcon3 = `${USERS}/courseIcon3.svg`;
 export const courseIcon4 = `${USERS}/courseIcon4.svg`;
 export const courseIcon5 = `${USERS}/courseIcon5.svg`;
 export const courseIcon6 = `${USERS}/courseIcon6.svg`;
+export const user1Test = `${USERS}/User1Test.svg`;
+export const user2Test = `${USERS}/User2Test.svg`;
+export const user3Test = `${USERS}/User3Test.svg`;
 
 export const youngWomanVector = `${BACKGROUND}/youngGirl.png`;
 export const heroBackground = `${BACKGROUND}/heroPattern.png`;
@@ -43,6 +46,10 @@ export const boyOnPc = `${BACKGROUND}/boyOnPc.png`;
 export const vectorBest1 = `${BACKGROUND}/VectorBest1.svg`;
 export const vectorBest2 = `${BACKGROUND}/VectorBest2.svg`;
 export const vectorBest3 = `${BACKGROUND}/VectorBest3.svg`;
+export const corner = `${BACKGROUND}/corner.svg`;
+export const greenZig = `${BACKGROUND}/greenZig.svg`;
+export const pCircle = `${BACKGROUND}/pCircle.svg`;
+export const slack = `${BACKGROUND}/slack.svg`;
 
 export const menuIcon = `${ICONS}/menu.svg`;
 export const volumeUpIcon = `${ICONS}/volume_up.svg`;

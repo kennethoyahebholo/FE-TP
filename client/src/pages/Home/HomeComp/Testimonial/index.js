@@ -1,30 +1,8 @@
 import React from "react";
-// import { TestimonialData } from "../../../../utils/TestimonialData";
-// import TestimonialCarousel from "./TestimonialCarousel";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import { TestimonialData } from "../../../../utils/TestimonialData";
+import TestimonialCarousel from "./TestimonialCarousel";
 import "./styles.css";
 const Testimonial = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 2.3,
-  //   slidesToScroll: 2.3,
-  //   swipeToSlide: true,
-  //   className: "center",
-  //   responsive: [
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         slidesToShow: 1.1,
-  //         slidesToScroll: 1,
-  //       },
-  //     },
-  //   ],
-  // };
-
   return (
     <div className="relative flex flex-col w-full h-full bg-[#F8F9FC] pb-8">
       <div className="flex flex-col items-center pt-12 px-5 md:px-20 xl:px-32 mb-8 md:mb-11">
@@ -37,16 +15,11 @@ const Testimonial = () => {
           definition, generally any standard video image
         </p>
       </div>
-      <div className="flex gap-4 overflow-y-scroll">
-        {/* {TestimonialData?.map((data) => (
-          <TestimonialCarousel key={data.id} {...data} />
-        ))} */}
-      </div>
-      {/* <Slider {...settings}>
+      <div className="grid grid-flow-col gap-4 overflow-x-scroll hide-scrollbar px-4">
         {TestimonialData?.map((data) => (
           <TestimonialCarousel key={data.id} {...data} />
         ))}
-      </Slider> */}
+      </div>
     </div>
   );
 };

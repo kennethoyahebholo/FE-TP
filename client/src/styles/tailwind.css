@@ -16,7 +16,7 @@
 
 @layer base {
   body {
-    @apply bg-background font-Heebo;
+    @apply bg-background font-Satoshi;
   }
 
   h1,
@@ -37,37 +37,6 @@
     font-style: normal;
     font-weight: 400;
   }
-
-  /* h1 {
-    line-height: 120%;
-    @apply text-[48px] xl:text-[80px];
-  }
-
-  h2 {
-    line-height: 150%;
-    @apply text-[37px] lg:text-[61px];
-  }
-
-  h3 {
-    line-height: 150%;
-    @apply text-[28px] lg:text-[47px];
-  }
-
-  h4 {
-    line-height: 150%;
-    @apply text-[21px] lg:text-[36px];
-  }
-
-  h5 {
-    line-height: 150%;
-    @apply text-lg lg:text-[27px];
-  }
-
-  h6 {
-    line-height: 150%;
-    @apply text-[12px] lg:text-[21px];
-  } */
-
   a {
     color: inherit;
     text-decoration: none;

@@ -9,8 +9,6 @@ const RouterConfig = () => {
     <div>
       <Routes>
         <Route path={HOME} element={<Home />} />
-        {/* 404 page */}
-        {/* <Route path="*" element={<ErrorPage />} />  */}
       </Routes>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from "react";
+import { TPimages } from "../../../../assets";
 import {
   TPZoomLogo,
   TPStripeLogo,
   TPDropboxLogo,
-  TPSlackLogo,
   TPMondayLogo,
 } from "../../../../components/icons";
 
@@ -14,8 +14,7 @@ const CompaniesLogoDisplay = () => {
         <TPZoomLogo className=" max-w-[80%] aspect-[3/2] object-contain" />
         <TPStripeLogo className=" max-w-[80%] aspect-[3/2] object-contain" />
         <TPMondayLogo className=" max-w-[85%] aspect-[3/2] object-contain" />
-        {/* <TPSlackLogo className=" w-[160px] aspect-[3/2] object-contain" /> */}
-        <TPDropboxLogo className=" max-w-[85%] aspect-[3/2] object-contain" />
+        <img src={TPimages.slack} alt="slack logo" />
         <TPDropboxLogo className=" max-w-[85%] aspect-[3/2] object-contain" />
       </div>
     </div>
@@ -23,7 +22,3 @@ const CompaniesLogoDisplay = () => {
 };
 
 export default CompaniesLogoDisplay;
-
-// col-span-2 md:col-span-1
-
-// md:h-full h-[30vh] md:w-[565px] w-[396px] object-contain
