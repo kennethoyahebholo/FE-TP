@@ -150,5 +150,3 @@ const HighQuality = () => {
 };
 
 export default HighQuality;
-
-// max-w-[50%] md:max-w-[80%] object-contain]

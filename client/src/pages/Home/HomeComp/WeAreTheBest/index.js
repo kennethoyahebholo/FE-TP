@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { TPimages } from "../../../../assets";
-import { Button } from "../../../../components";
 import CardComp from "./CardComp";
 import { QualitiesData } from "../../../../utils/qualities";
 
