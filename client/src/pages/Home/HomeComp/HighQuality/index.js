@@ -98,11 +98,11 @@ const HighQuality = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full pb-20">
-          <div className="relativew-full flex justify-center pr-0 lg:pr-10">
-            <div className=" bg-white z-20 -mr-[100px]  lg:-mr-[180px] max-h-[36px] lg:max-h-[66px] max-w-[210px] mt-[100px] lg:mt-[170px] py-1 px-2 lg:pl-3 lg:pr-4 rounded-[3.50685px] lg-rounded-[8px]">
+          <div className="relative w-full flex justify-center pr-0 md:pr-10">
+            <div className=" bg-white z-20 -mr-[100px] md:-mr-[180px] max-h-[36px] md:max-h-[66px] max-w-[210px] mt-[100px] md:mt-[170px] py-1 px-2 md:pl-3 md:pr-4 rounded-[3.50685px] md-rounded-[8px]">
               {UserImgData.length > 4 && (
                 <div className="flex items-center justify-center text-[#000F24]">
-                  <p className="text-[6px] lg:text-[12px] font-bold">
+                  <p className="text-[6px] md:text-[12px] font-bold">
                     255k+ Enrolled Students
                   </p>
                 </div>
@@ -113,7 +113,7 @@ const HighQuality = () => {
                       <img
                         key={item.id}
                         src={item.userImgUrl}
-                        className="rounded-full h-[16px] w-[16px] lg:h-[36px] lg:w-[36px] -mr-[4px] lg:-mr-[16px] object-contain"
+                        className="rounded-full h-[16px] w-[16px] md:h-[36px] md:w-[36px] -mr-[4px] md:-mr-[16px] object-contain"
                         alt=""
                       />
                     ))
@@ -121,7 +121,7 @@ const HighQuality = () => {
                       <img
                         key={item.id}
                         src={item.userImgUrl}
-                        className="rounded-full h-[16px] w-[16px] lg:h-[36px] lg:w-[36px] -mr-[4px] lg:-mr-[16px] object-contain"
+                        className="rounded-full h-[16px] w-[16px] md:h-[36px] md:w-[36px] -mr-[4px] md:-mr-[16px] object-contain"
                         alt=""
                       />
                     ))}
@@ -129,16 +129,16 @@ const HighQuality = () => {
             </div>
             <img
               src={TPimages.backImage}
-              className=" max-w-[170px] lg:max-w-[280px] object-contain z-20 -mr-[100px] mt-[200px] lg:mt-[330px] lg:-mr-[150px]"
+              className=" max-w-[170px] md:max-w-[280px] object-contain z-20 -mr-[100px] mt-[200px] md:mt-[330px] md:-mr-[150px]"
               alt=""
             />
             <img
               src={TPimages.backgroundBoy}
-              className=" max-w-[250px] lg:max-w-[450px] object-contain z-10"
+              className=" max-w-[250px] md:max-w-[450px] object-contain z-10"
               alt=""
             />
             <img
-              className="max-w-[91px] lg:max-w-[150px] object-contain -ml-[50px] lg:-ml-[100px] mt-[200px] lg:mt-[250px]"
+              className="max-w-[91px] md:max-w-[150px] object-contain -ml-[50px] md:-ml-[100px] mt-[200px] md:mt-[250px]"
               src={TPimages.VectorDesign}
               alt=""
             />
