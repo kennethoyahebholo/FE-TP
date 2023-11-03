@@ -48,7 +48,7 @@ export const HomeContainer = () => {
   useEffect(() => {
     AOS.init({
       duration: 2000, // Animation duration
-      offset: 50, // Offset (in pixels) from the top of the window
+      offset: 0, // Offset (in pixels) from the top of the window
     });
   }, []);
 
