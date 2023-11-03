@@ -22,7 +22,10 @@ const HighQuality = () => {
           src={TPimages.pCircle}
           alt=""
         />
-        <div className="relative flex flex-col xl:items-start pt-[50px] pl-3 mb-16 xl:mb-0 px-5 lg:p-10 xl:px-24">
+        <div
+          data-aos="zoom-in"
+          className="relative flex flex-col xl:items-start pt-[50px] pl-3 mb-16 xl:mb-0 px-5 lg:p-10 xl:px-24"
+        >
           <div className="relative  flex items-center flex-col xl:items-start mb-4">
             <div className="relative">
               <div className="absolute hidden sm:flex left-[-50px] top-[-38px]">
@@ -97,7 +100,10 @@ const HighQuality = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full pb-20">
+        <div
+          data-aos="zoom-in"
+          className="flex items-center justify-center w-full pb-20"
+        >
           <div className="relative w-full flex justify-center pr-0 md:pr-10">
             <div className=" bg-white z-20 -mr-[100px] md:-mr-[180px] max-h-[36px] md:max-h-[66px] max-w-[210px] mt-[100px] md:mt-[170px] py-1 px-2 md:pl-3 md:pr-4 rounded-[3.50685px] md-rounded-[8px]">
               {UserImgData.length > 4 && (

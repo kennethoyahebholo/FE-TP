@@ -5,7 +5,7 @@ import { coursesData } from "../../../../utils/coursesData";
 import Navigation from "./Navigation";
 import { Button } from "../../../../components";
 
-const PopularCourses = () => {
+const PopularCourses = ({ coursesRef }) => {
   const [courseCategories, setCourseCategories] = useState(coursesData);
   const [isCategory, setIsCategory] = useState("All Categories");
 
@@ -41,7 +41,10 @@ const PopularCourses = () => {
   };
 
   return (
-    <div className="relative flex flex-col w-full h-full lg:min-h-screen bg-[#F8F9FC] pt-12 pb-8 px-5 md:px-20 xl:px-32">
+    <div
+      ref={coursesRef}
+      className="relative flex flex-col w-full h-full lg:min-h-screen bg-[#F8F9FC] pt-12 pb-8 px-5 md:px-20 xl:px-32"
+    >
       <div className="absolute top-[20px] left-[10px] md:top-[150px] md:left-[90px] z-[1]">
         <img
           src={TPimages.CourseVector}

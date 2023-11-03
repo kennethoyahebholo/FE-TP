@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import NavLink from "./NavLink";
-import { TPFooterLogo, Menu, Button } from "../../../components";
+import { TPFooterLogo } from "../../../components";
 import { TPimages } from "../../../assets";
 import SideBar from "../sidebar";
 import NavComp from "./NavComp";
 
-const Navbar = ({ transparent = false }) => {
+const Navbar = ({ transparent = false, handleClick }) => {
   const [show, setShow] = useState(false);
   return (
     <div
@@ -19,7 +18,7 @@ const Navbar = ({ transparent = false }) => {
         </Link>
 
         <div className="items-center gap-5">
-          <NavComp />
+          <NavComp handleClick={handleClick} />
           <div className="inline-flex items-center space-x-3">
             <label
               onClick={() => {

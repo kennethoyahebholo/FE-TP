@@ -3,9 +3,12 @@ import QuestionsComp from "./QuestionsComp";
 import { FaqList } from "../../../../utils/faqList";
 import { TPimages } from "../../../../assets";
 
-const Hero = () => {
+const Hero = ({ faqRef }) => {
   return (
-    <div className="relative flex flex-col w-full h-full lg:min-h-screen bg-[#FFFF] py-12 px-5">
+    <div
+      ref={faqRef}
+      className="relative flex flex-col w-full h-full lg:min-h-screen bg-[#FFFF] py-12 px-5"
+    >
       <div className="absolute top-[130px] md:top-[240px] left-0 z-[1]">
         <img src={TPimages.QaDesign} className="w-[30%] md:w-[70%]" alt="" />
       </div>

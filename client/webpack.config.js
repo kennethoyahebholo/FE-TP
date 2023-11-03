@@ -25,6 +25,11 @@ module.exports = {
         include: path.resolve(__dirname, "src"),
         use: ["style-loader", "css-loader", "postcss-loader"],
       },
+      {
+        test: /\.css$/i,
+        include: /node_modules/, // Include CSS in node_modules
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   resolve: {

@@ -1,19 +1,13 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
 
-const NavLink = ({ to, children }) => {
-  const { pathname } = useLocation();
+const NavLink = ({ onClick, children }) => {
   return (
-    <Link
-      to={to}
-      className={`${
-        pathname === to
-          ? "text-primary border-b-2 border-b-primary font-bold"
-          : "text-white hover:text-primary"
-      } pb-px px-1 text-base`}
+    <div
+      onClick={onClick}
+      className="pb-px px-1 text-base cursor-pointer text-white hover:text-[#e2d046]"
     >
       {children}
-    </Link>
+    </div>
   );
 };
 

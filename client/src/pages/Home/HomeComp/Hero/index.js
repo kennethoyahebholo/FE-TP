@@ -3,9 +3,10 @@ import { TPimages } from "../../../../assets";
 import { Button } from "../../../../components";
 import { UserImgData } from "../../../../utils/userImg";
 
-const Hero = () => {
+const Hero = ({ homeRef }) => {
   return (
     <div
+      ref={homeRef}
       className="w-full h-full bg-[#004db3]"
       style={{ backgroundImage: `url('${TPimages.heroBackground}')` }}
     >
@@ -16,7 +17,10 @@ const Hero = () => {
         <div className="absolute left-[0px] top-[460px]">
           <img className="" src={TPimages.vector1} alt="" />
         </div>
-        <div className="pb-[40px] lg:pb-[130px] relative  flex flex-col items-center md:items-start">
+        <div
+          data-aos="fade-right"
+          className="pb-[40px] lg:pb-[130px] relative  flex flex-col items-center md:items-start"
+        >
           <div className="hidden lg:flex absolute left-[35px] top-[-110px]">
             <img className="" src={TPimages.vector2} alt="" />
           </div>
@@ -70,7 +74,10 @@ const Hero = () => {
             )}
           </div>
         </div>
-        <div className="relative flex items-center justify-center lg:justify-end">
+        <div
+          data-aos="fade-left"
+          className="relative flex items-center justify-center lg:justify-end"
+        >
           <div className="flex md:hidden absolute right-[30px] top-[-125px]">
             <img className="" src={TPimages.vector5} alt="" />
           </div>

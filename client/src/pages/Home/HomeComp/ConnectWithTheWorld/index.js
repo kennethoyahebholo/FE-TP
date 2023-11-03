@@ -2,13 +2,17 @@ import React from "react";
 import { TPimages } from "../../../../assets";
 import { Button } from "../../../../components";
 
-const ConnectWithTheWorld = () => {
+const ConnectWithTheWorld = ({ communityRef }) => {
   return (
     <div
+      ref={communityRef}
       className="w-full h-full bg-[#004db3] lg:min-h-screen py-10 md:pt-16 md:pb-4 px-3"
       style={{ backgroundImage: `url('${TPimages.Pattern}')` }}
     >
-      <div className="flex flex-col items-center mb-0 md:mb-12">
+      <div
+        data-aos="zoom-in"
+        className="flex flex-col items-center mb-0 md:mb-12"
+      >
         <p className="uppercase text-[8px] md:text-lg text-[#FFFFFF] font-medium text-center max-w-[530px]">
           join our community
         </p>

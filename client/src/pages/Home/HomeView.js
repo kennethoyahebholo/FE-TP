@@ -10,17 +10,24 @@ import {
   Testimonial,
 } from "./HomeComp";
 
-const HomeView = () => {
+const HomeView = ({
+  homeRef,
+  aboutUsRef,
+  coursesRef,
+  testimonialRef,
+  communityRef,
+  faqRef,
+}) => {
   return (
     <div className="overflow-hidden">
-      <Hero />
+      <Hero homeRef={homeRef} />
       <CompaniesLogoDisplay />
       <HighQuality />
-      <WeAreTheBest />
-      <PopularCourses />
-      <Testimonial />
-      <ConnectWithTheWorld />
-      <FAQ />
+      <WeAreTheBest aboutUsRef={aboutUsRef} />
+      <PopularCourses coursesRef={coursesRef} />
+      <Testimonial testimonialRef={testimonialRef} />
+      <ConnectWithTheWorld communityRef={communityRef} />
+      <FAQ faqRef={faqRef} />
     </div>
   );
 };
