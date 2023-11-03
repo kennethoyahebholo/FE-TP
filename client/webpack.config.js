@@ -28,7 +28,7 @@ module.exports = {
       {
         test: /\.css$/i,
         include: /node_modules/, // Include CSS in node_modules
-        use: ["style-loader", "css-loader", "postcss-loader"],
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
