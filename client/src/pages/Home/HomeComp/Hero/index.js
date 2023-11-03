@@ -75,7 +75,7 @@ const Hero = ({ homeRef }) => {
           </div>
         </div>
         <div
-          data-aos="fade-in"
+          data-aos="fade-left"
           className="relative flex items-center justify-center lg:justify-end"
         >
           <div className="flex md:hidden absolute right-[30px] top-[-125px]">
